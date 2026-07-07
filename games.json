@@ -1,0 +1,38 @@
+{
+    "HOMEBREW APPLICATION": {
+        "name": "Homebrew App",
+        "description": "Custom applications for modded WiiU systems",
+        "logo": "hb",
+        "client_id": "1524122916952998059"
+    },
+    "NEW SUPER MARIO BROS. U": {
+        "name": "New Super Mario Bros. U",
+        "description": "No description available...",
+        "logo": "nsmbu",
+        "client_id": "1524115614145446059"
+    },
+    "SUPER MARIO 3D WORLD": {
+        "name": "Super Mario 3D World",
+        "description": "No description available...",
+        "logo": "sm3dw",
+        "client_id": "1524115229896741054"
+    },
+    "BREATH OF THE WILD": {
+        "name": "Zelda Breath of the Wild",
+        "description": "No description available...",
+        "logo": "botw",
+        "client_id": "1524114872151838780"
+    },
+    "MARIO KART 8": {
+        "name": "Mario Kart 8",
+        "description": "No description available...",
+        "logo": "mk",
+        "client_id": "1524130181726474240"
+    },
+    "YOUTUBE": {
+        "name": "YouTube",
+        "description": "Video platforms",
+        "logo": "yt",
+        "client_id": "1524125100239093860"
+    }
+}
