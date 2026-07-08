@@ -1,9 +1,21 @@
 {
     "HOMEBREW APPLICATION": {
         "name": "Homebrew App",
-        "description": "Custom applications for modded WiiU systems",
+        "description": "Custom applications for modded Wii U systems",
         "logo": "hb",
         "client_id": "1524122916952998059"
+    },
+    "SYSTEM SETTINGS": {
+        "name": "System Settings",
+        "description": "Default app to set your Wii U",
+        "logo": "settings",
+        "client_id": "1524149144329912361"
+    },
+    "MII MAKER": {
+        "name": "Mii Maker",
+        "description": "Default app to make Mii",
+        "logo": "nsmbu",
+        "client_id": "1524141136174780646"
     },
     "NEW SUPER MARIO BROS. U": {
         "name": "New Super Mario Bros. U",
@@ -28,6 +40,12 @@
         "description": "No description available...",
         "logo": "mk",
         "client_id": "1524130181726474240"
+    },
+    "MINECRAFT: WII U EDITION": {
+        "name": "Minecraft (Wii U)",
+        "description": "No description available...",
+        "logo": "mc",
+        "client_id": "1524151025689301144"
     },
     "YOUTUBE": {
         "name": "YouTube",
