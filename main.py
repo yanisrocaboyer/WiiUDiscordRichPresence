@@ -10,7 +10,7 @@ import hashlib
 
 CONFIG_FILE = "config.json"
 GAMES_FILE = "games.json"
-GAMES_URL = "https://mazegroup.org/download/wiiurpc/games.json"
+GAMES_URL = "https://raw.githubusercontent.com/yanisrocaboyer/WiiUDiscordRichPresence/refs/heads/main/games.json"
 
 print("WiiU RPC - By Yanis Roca--Boyer")
 
@@ -24,7 +24,7 @@ def load_config():
     except Exception as e:
         print(f"Error reading the config file: {e}")
         sys.exit(1)
-    for key in ["CLIENT_ID", "IP", "PORT"]:
+    for key in ["IP", "PORT"]:
         if key not in config or not config[key]:
             print(f"The parameter '{key}' is not configured in '{CONFIG_FILE}'.")
             create_config()
@@ -33,10 +33,9 @@ def load_config():
 
 def create_config():
     print("Please configure the missing parameters in 'config.json'.")
-    client_id = input("CLIENT_ID (required): ").strip()
     ip = input("IP (e.g. 0.0.0.0): ").strip()
     port = input("PORT (e.g. 5005): ").strip()
-    if not client_id or not ip or not port:
+    if not ip or not port:
         print("All fields are required.")
         sys.exit(1)
     try:
@@ -45,7 +44,6 @@ def create_config():
         print("PORT must be an integer.")
         sys.exit(1)
     config = {
-        "CLIENT_ID": client_id,
         "IP": ip,
         "PORT": port
     }
@@ -113,7 +111,7 @@ def ensure_latest_games_file():
 ensure_latest_games_file()
 
 config = load_config()
-DEFAULT_CLIENT_ID = str(config["CLIENT_ID"])
+DEFAULT_CLIENT_ID = 1524077203438960690
 UDP_IP = str(config["IP"])
 UDP_PORT = int(config["PORT"])
 
