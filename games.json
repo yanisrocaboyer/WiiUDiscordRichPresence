@@ -23,6 +23,12 @@
         "logo": "nsmbu",
         "client_id": "1524115614145446059"
     },
+    "NEW SUPER MARIO BROS.": {
+        "name": "New Super Mario Bros.",
+        "description": "No description available...",
+        "logo": "nsmbu",
+        "client_id": "1524533062996721665"
+    },
     "SUPER MARIO 3D WORLD": {
         "name": "Super Mario 3D World",
         "description": "No description available...",
@@ -46,6 +52,18 @@
         "description": "No description available...",
         "logo": "mc",
         "client_id": "1524151025689301144"
+    },
+    "JUST DANCE® 2016": {
+        "name": "JUST DANCE® 2016",
+        "description": "Dance game developed by Ubisoft",
+        "logo": "jd",
+        "client_id": "1524454932265042171"
+    },
+    "JUST DANCE® 2014": {
+        "name": "JUST DANCE® 2014",
+        "description": "Dance game developed by Ubisoft",
+        "logo": "jd",
+        "client_id": "1524504469361000489"
     },
     "YOUTUBE": {
         "name": "YouTube",
