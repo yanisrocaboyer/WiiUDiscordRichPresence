@@ -19,37 +19,37 @@
     },
     "NEW SUPER MARIO BROS. U": {
         "name": "New Super Mario Bros. U",
-        "description": "No description available...",
+        "description": "Platform game where Mario embarks on a new adventure. Developed by Nintendo.",
         "logo": "nsmbu",
         "client_id": "1524115614145446059"
     },
     "NEW SUPER MARIO BROS.": {
         "name": "New Super Mario Bros.",
-        "description": "No description available...",
+        "description": "Platform game in the Mario series. Developed by Nintendo.",
         "logo": "nsmbu",
         "client_id": "1524533062996721665"
     },
     "SUPER MARIO 3D WORLD": {
         "name": "Super Mario 3D World",
-        "description": "No description available...",
+        "description": "3D platform game featuring Mario and friends. Developed by Nintendo.",
         "logo": "sm3dw",
         "client_id": "1524115229896741054"
     },
     "BREATH OF THE WILD": {
         "name": "Zelda Breath of the Wild",
-        "description": "No description available...",
+        "description": "Open-world adventure game in the Zelda series. Developed by Nintendo.",
         "logo": "botw",
         "client_id": "1524114872151838780"
     },
     "MARIO KART 8": {
         "name": "Mario Kart 8",
-        "description": "No description available...",
+        "description": "Racing game with Mario characters. Developed by Nintendo.",
         "logo": "mk",
         "client_id": "1524130181726474240"
     },
     "MINECRAFT: WII U EDITION": {
         "name": "Minecraft (Wii U)",
-        "description": "No description available...",
+        "description": "Sandbox building and adventure game. Developed by Mojang.",
         "logo": "mc",
         "client_id": "1524151025689301144"
     },
@@ -67,7 +67,7 @@
     },
     "YOUTUBE": {
         "name": "YouTube",
-        "description": "Video platforms",
+        "description": "Video platform to watch and share videos. Developed by Google.",
         "logo": "yt",
         "client_id": "1524125100239093860"
     }
